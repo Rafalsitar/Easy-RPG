@@ -1,0 +1,15 @@
+C:\Users\Rafal\Documents\dev\EasyRPG\bin\Debug\net7.0\EasyRPG.exe
+C:\Users\Rafal\Documents\dev\EasyRPG\bin\Debug\net7.0\EasyRPG.deps.json
+C:\Users\Rafal\Documents\dev\EasyRPG\bin\Debug\net7.0\EasyRPG.runtimeconfig.json
+C:\Users\Rafal\Documents\dev\EasyRPG\bin\Debug\net7.0\EasyRPG.dll
+C:\Users\Rafal\Documents\dev\EasyRPG\bin\Debug\net7.0\EasyRPG.pdb
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\EasyRPG.csproj.AssemblyReference.cache
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\EasyRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\EasyRPG.AssemblyInfoInputs.cache
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\EasyRPG.AssemblyInfo.cs
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\EasyRPG.csproj.CoreCompileInputs.cache
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\EasyRPG.dll
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\refint\EasyRPG.dll
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\EasyRPG.pdb
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\EasyRPG.genruntimeconfig.cache
+C:\Users\Rafal\Documents\dev\EasyRPG\obj\Debug\net7.0\ref\EasyRPG.dll
