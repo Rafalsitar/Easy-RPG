@@ -75,46 +75,41 @@ namespace RPG
         static void GameInit(int FighterType)
         {
             if (FighterType == 1)
-            { 
-                // Init Warrior stats
+            {
+                // tell game it's warrior time
+                game(1);
             }
             else if (FighterType == 2) 
             {
-                // init Berserker stats
+                // tell game it's berserker time
+                game(2);
             }
             else if (FighterType == 3) 
             {
-                // init Knight stats
+                // tell game it's knight time
+                game(3);
             }
             else if (FighterType == 4)
             {
-                // init Cheat stats
+                // tell game the player is a filthy cheater
+                game(4);
             }
             else if (FighterType == 5)
             {
-                Console.WriteLine("Which savefile do you want to load? (1, 2 or 3)");
-                string whichsavefile = Console.ReadLine();
-                if (whichsavefile == "1") 
+                Console.WriteLine("Are you sure you want to load a save (y or n)?");
+                string areyousure = Console.ReadLine();
+                if (areyousure == "y")
                 {
-                    // load every value in the savefile and initialize it.
-                    string ATKs = File.ReadLines("C:/Users/RPGGameSaves/savegame1.txt").First();
-                    int ATK = Convert.ToInt32(ATKs);
-                    string DEFs = File.ReadLines("C:/Users/RPGGameSaves/savegame1.txt").Skip(1).Take(1).First();
-                    int DEF = Convert.ToInt32(DEFs);
+                    game(5);
                 }
-                else if (whichsavefile == "2") 
+                else if (areyousure == "n")
                 {
-                    // load every value in the savefile and initialize it. 
-                }
-                else if (whichsavefile == "3") 
-                {
-                    // load every value in the savefile and initialize it.
+                    Main();
                 }
                 else
                 {
-                    Console.Clear();
-                    Console.WriteLine("Invalid savefile.");
-                    Thread.Sleep(2000);
+                    Console.WriteLine("Invalid input.");
+                    Thread.Sleep(1000);
                     GameInit(5);
                 }
             }
@@ -126,14 +121,72 @@ namespace RPG
                 Main();
             }
             
-            
-        }
-
-        static void WriteSave(int args)
-        {
-            // Write Save
-            Console.Clear();
-            Console.WriteLine("Which save location do you want to write to? (1, 2 or 3)");
+            static void game(int FighterType)
+            {
+                if (FighterType == 5)
+                {
+                    Console.WriteLine("Which savefile do you want to load? (1, 2 or 3)");
+                    string whichsavefile = Console.ReadLine();
+                    if (whichsavefile == "1")
+                    {
+                        // load every value in the savefile and initialize it.
+                        string FighterTypeS = File.ReadLines("C:/Users/RPGGameSaves").First();
+                        int FighterTypeLoSa = Convert.ToInt32(FighterTypeS);
+                        string SwordSlotS = File.ReadLines("C:/Users/RPGGameSaves").Skip(1).Take(1).First();
+                        int SwordSlot = Convert.ToInt32(FighterTypeS);
+                        string ShieldSlotS = File.ReadLines("C:/Users/RPGGameSaves").Skip(2).Take(1).First();
+                        int ShieldSlot = Convert.ToInt32(ShieldSlotS);
+                        string InvSlot0S = File.ReadLines("C:/Users/RPGGameSaves").Skip(3).Take(1).First();
+                        int InvSlot0 = Convert.ToInt32(InvSlot0S);
+                        string InvSlot1S = File.ReadLines("C:/Users/RPGGameSaves").Skip(4).Take(1).First();
+                        int InvSlot1 = Convert.ToInt32(InvSlot1S);
+                        string InvSlot2S = File.ReadLines("C:/Users/RPGGameSaves").Skip(5).Take(1).First();
+                        int InvSlot2 = Convert.ToInt32(InvSlot2S);
+                        string EXPS = File.ReadLines("C:/Users/RPGGameSaves").Skip(6).Take(1).First();
+                        int EXP = Convert.ToInt32(EXPS);
+                        string LVLS = File.ReadLines("C:/Users/RPGGameSaves").Skip(7).Take(1).First();
+                        int LVL = Convert.ToInt32(LVLS);
+                    }
+                    else
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Invalid savefile.");
+                        Thread.Sleep(2000);
+                        GameInit(5);
+                    }
+                }
+                else if (FighterType == 1)
+                {
+                    // Finally init Warrior stats
+                }
+                else if (FighterType == 2) 
+                {
+                    // Finally init Berserker stats
+                }
+                else if (FighterType == 3) 
+                { 
+                    // Finally init Knight stats
+                }
+                else if (FighterType == 4) 
+                { 
+                    // Finally init Cheat stats
+                }
+                int TurnTimer = 0;
+                bool DoTurnTimerTick = false;
+                while (TurnTimer == 20)
+                {
+                    if (DoTurnTimerTick = true) 
+                    {
+                        // Add 1 to the turn timer and then continue to the game
+                        TurnTimer += 1;
+                    }
+                    if (DoTurnTimerTick = false) 
+                    { 
+                        // do nothing and continue to the game
+                    }
+                    // The game
+                }
+            }
         }
     }
 }

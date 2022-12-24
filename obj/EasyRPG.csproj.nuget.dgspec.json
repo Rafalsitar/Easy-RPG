@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafal\\Documents\\dev\\EasyRPG\\EasyRPG.csproj": {}
+    "C:\\Users\\bbb\\source\\repos\\dev\\EasyRPG\\EasyRPG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafal\\Documents\\dev\\EasyRPG\\EasyRPG.csproj": {
+    "C:\\Users\\bbb\\source\\repos\\dev\\EasyRPG\\EasyRPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafal\\Documents\\dev\\EasyRPG\\EasyRPG.csproj",
+        "projectUniqueName": "C:\\Users\\bbb\\source\\repos\\dev\\EasyRPG\\EasyRPG.csproj",
         "projectName": "EasyRPG",
-        "projectPath": "C:\\Users\\Rafal\\Documents\\dev\\EasyRPG\\EasyRPG.csproj",
-        "packagesPath": "C:\\Users\\Rafal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafal\\Documents\\dev\\EasyRPG\\obj\\",
+        "projectPath": "C:\\Users\\bbb\\source\\repos\\dev\\EasyRPG\\EasyRPG.csproj",
+        "packagesPath": "C:\\Users\\bbb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bbb\\source\\repos\\dev\\EasyRPG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Rafal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bbb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
